@@ -72,7 +72,7 @@ describe DictionaryTree do
       # Note: The "Splat" operator * effectively separates the array
       #    so the single array ["foo","bar"] becomes two separate
       #    strings "foo","bar"
-      dictionary_tree.insert_word(*word_cat)  
+      dictionary_tree.insert_word(*word_cat)
       expect(dictionary_tree.num_letters).to eq(3)
     end
 
@@ -496,7 +496,7 @@ describe DictionaryTree do
   # ----------------------------------------
   # Uncomment and make the tests pass
   # to earn extra credit
-  # 
+  #
 
 
   # ----------------------------------------
@@ -504,33 +504,35 @@ describe DictionaryTree do
   # ----------------------------------------
 
 
-  # describe '#width' do
+  describe '#width' do
 
-  #   before do
-  #     [
-  #       'aardvark', 'absolute', 'acute',
-  #       'ball', 'beach', 'bot',
-  #       'cab', 'cool', 'cup'
-  #     ].each do |word|
-  #       dictionary_tree.insert_word(word, 'Definitions are cool!')
-  #     end
-  #   end
+    before do
+      [
+        'aardvark', 'absolute', 'acute',
+        'ball', 'beach', 'bot',
+        'cab', 'cool', 'cup'
+      ].each do |word|
+        dictionary_tree.insert_word(word, 'Definitions are cool!')
+      end
+    end
 
-  #   it 'returns the maximum width of the tree' do
-  #     expect(dictionary_tree.width).to eq(9)
-  #   end
-
-
-  #   it 'returns the correct width after a word has been inserted' do
-  #     dictionary_tree.insert_word('add', 'Definition is a plus')
-  #     expect(dictionary_tree.width).to eq(10)
-  #   end
+    it 'returns the maximum width of the tree' do
+      expect(dictionary_tree.width).to eq(9)
+    end
 
 
-  #   it 'returns the correct width even after a word has been removed' do
-  #     dictionary_tree.remove_word('aardvark')
-  #     expect(dictionary_tree.width).to eq(8)
-  #   end
-  # end
+    it 'returns the correct width after a word has been inserted' do
+      dictionary_tree.insert_word('add', 'Definition is a plus')
+      expect(dictionary_tree.width).to eq(10)
+    end
+
+
+    # Couldn't get this one to pass
+
+    # it 'returns the correct width even after a word has been removed' do
+    #   dictionary_tree.remove_word('aardvark')
+    #   expect(dictionary_tree.width).to eq(8)
+    # end
+  end
 end
 

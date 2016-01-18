@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DictionaryTree	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^class DictionaryTree$/;"	c
+build_tree	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def build_tree(dictionary)$/;"	f	class:DictionaryTree
+definition_of	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def definition_of(word)$/;"	f	class:DictionaryTree
+depth	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def depth(node = @root)$/;"	f
+find_node	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def find_node(word, node = @root)$/;"	f	class:DictionaryTree
+initialize	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def initialize(dictionary = nil)$/;"	f	class:DictionaryTree
+insert_word	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def insert_word(word, definition)$/;"	f	class:DictionaryTree
+num_letters	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def num_letters(node = @root)$/;"	f	class:depth
+num_words	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def num_words(node = @root)$/;"	f	class:depth
+remove_word	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def remove_word(word)$/;"	f	class:DictionaryTree
+width	/Users/kitlangton/Viking/assessments/week2/tree_trie_tro_trum/lib/dictionary_tree.rb	/^  def width(node = @root, depths = Hash.new(0))$/;"	f	class:DictionaryTree

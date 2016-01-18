@@ -40,6 +40,7 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
+  # config.filter_run :focus
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
@@ -47,7 +48,6 @@ RSpec.configure do |config|
   # to individual examples or groups you care about by tagging them with
   # `:focus` metadata. When nothing is tagged with `:focus`, all examples
   # get run.
-  config.filter_run :focus
   config.run_all_when_everything_filtered = true
 
   # Allows RSpec to persist some state between runs in order to support
