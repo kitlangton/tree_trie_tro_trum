@@ -59,7 +59,7 @@ class DictionaryTree
     if !node.children.empty?
       return node.definition = nil
     end
-    until node.parent.definition || node.parent == @root
+    until node.parent.definition || node.parent.children.size > 1 || node.parent == @root
       node = node.parent
     end
     node.parent.children.delete(node)

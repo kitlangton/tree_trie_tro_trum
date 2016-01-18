@@ -529,10 +529,10 @@ describe DictionaryTree do
 
     # Couldn't get this one to pass
 
-    # it 'returns the correct width even after a word has been removed' do
-    #   dictionary_tree.remove_word('aardvark')
-    #   expect(dictionary_tree.width).to eq(8)
-    # end
+    it 'returns the correct width even after a word has been removed' do
+      dictionary_tree.remove_word('aardvark')
+      expect(dictionary_tree.width).to eq(8)
+    end
   end
 end
 
